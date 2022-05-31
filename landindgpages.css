@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap') *,
+  *: before, *: after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  width: 200px;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+
+  justify-content: end;
+  align-items: center;
+}
+
+#btn-menu {
+  display: none;
+}
+
+.menu label {
+  display: none;
+  width: 30px;
+  height: 30px;
+  border-right: 1px solid grey;
+}
+
+.menu label:hover {
+  cursor: pointer;
+  background: grey;
+}
+
+.botones ul {
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.botones li:hover {
+  background: grey;
+}
+
+.botones li a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+li a.active,
+li a:hover {
+  background: grey;
+}
+
+.chckbtn {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+}
+.contenido {
+}
+.presentacion {
+  line-height: 0.8em;
+  padding-top: 40px;
+  color: white;
+  text-align: center;
+}
+h1 {
+  font-size: 2.5em;
+}
+.texto_del_desarrollo {
+  margin-left: 60px;
+  font-size: 1.6em;
+  max-width: 500px;
+  color: white;
+}
+.texto_del_desarrollo_amarillo {
+  margin-left: 60px;
+  font-size: 1.6em;
+  max-width: 500px;
+  color: yellow;
+}
+.texto_de_la_abeja {
+  margin-left: 60px;
+  font-size: 1.6em;
+  max-width: 600px;
+  color: white;
+  font-size: 1.8em;
+  line-height: 2.3em;
+}
+.desarrollo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.introducción {
+  padding-top: 40px;
+  margin-left: 150px;
+  max-width: 600px;
+  color: yellow;
+  font-size: 2em;
+}
+.imagen2 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 410px;
+  height: 276px;
+  background-color: white;
+  padding: 10px;
+}
+.imagenes {
+  display: flex;
+  flex-direction: column;
+}
+.imagen1 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 410px;
+  height: 330px;
+  background-color: white;
+  padding: 10px;
+}
+.texto_principal {
+  display: flex;
+  flex-direction: column;
+}
+.necesito {
+  border: 10px white solid;
+  padding: 30px;
+  margin-top: 50px;
+  min-height: 880 px;
+  color: white;
+  font-size: 1.8em;
+  background-image: url(imagenes/fondo_landing.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.descuento {
+  padding-top: 220px;
+  padding-left: 650px;
+}
+.ejemplo {
+  color: yellow;
+  font-size: 1.5em;
+}
+.acordeon {
+}
+margin-top: 60px;
+color: white;
+margin-left: 375px;

@@ -1,0 +1,517 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap") *, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+html }
+scroll-behavior: smoot;
+
+body {
+
+    font-family: 'Roboto', sans-serif,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+}
+
+.contenedor {
+   
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    color: white;
+    flex-direction: column;
+
+
+}
+h1{
+    color: black;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+background-color: black;
+}
+
+.logo {
+    width: 300px;
+    height: 250px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items:flex-start;
+
+}
+
+#btn-menu {
+    display: none;
+}
+
+.menu label {
+    display:inline;
+    width: 30px;
+    height: 30px;
+    border-right: 1px solid grey;
+}
+
+.menu label:hover {
+    cursor: pointer;
+    background: grey;
+}
+
+
+.botones ul {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.botones li:hover {
+    background: grey;
+}
+
+.botones li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.botones li ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+ .botones li ul{
+    display: none;
+    
+}
+.botones li:hover > ul{
+    display: block;
+    
+    
+}
+
+
+li a:active,
+li a:hover {
+    background: grey;
+}
+
+.chckbtn {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+.paginas ul {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+section {
+    background-image: url(imagenes/imagen_para_fondo_grande.jpg);
+    background-repeat: no-repeat;
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.titulo_presentacion h1 {
+    margin-top: 60px;
+font-size: 2.3em;
+ text-align: center;
+
+}
+
+
+.contenido {
+  
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.texto_e_imagenes {
+   margin-top: 30px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+.textos_1_y_2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    font-size: larger;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 400px;
+    min-width: 400px;
+}
+.texto_1{
+    font-size: 1.1em;
+}
+.imagenes{
+    margin-top:60px;
+    width: 440px;
+    height: 372px;
+    border: 3px rgb(146, 18, 146) solid;
+} 
+.imagen1 {
+    margin-top: 25px;
+    margin-left: 20px;
+    display: block;
+
+}
+
+.imagen2 {
+    display: none;
+}
+.texto_3_y_wb{
+    margin: 30px;
+   
+     border: 4px rgb(17, 150, 173) solid;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto_3{margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+   
+    margin-left: 30px;
+    
+    font-size: 1.3em;
+}
+.texto_3 p{
+    max-width: 400px;
+}
+.texto_3 img{
+    height: 50px;
+}
+
+.wb { font-family: 'Roboto', sans-serif,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    padding: 40px;
+     font-size: larger;
+    color: white;
+   
+    max-width: 800px;
+}   
+.wb h3{
+    border: 2px red solid;
+    padding: 5px;
+}
+.descripcion{
+    max-width:1000px;
+   margin-top: 40px; 
+   margin-left: 280px;
+}
+.nuestros_clientes{
+    display: flex;
+    flex-direction: column;
+    border: 5px red solid;
+    background-color:black ;
+    padding-bottom: 50px;
+    
+}
+.acordeon{
+      background-image: url(imagenes/imagen_para_fondo_grande.jpg);
+    background-repeat: no-repeat;
+     border: 10px rgb(70, 66, 112) solid
+}
+
+.primero_de_tres{
+    padding-top: 50px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+.segundo_de_tres{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;  
+}
+
+.fondo-clases_de_paginas{
+    background-color: black;
+    height: 600px;
+} 
+.clasesdepaginas{
+    font-size: 1.8em;
+    margin: 40px;
+} 
+.clasesdepaginas h2{
+    margin-left: 50px;
+}   
+    
+article{
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.pie_del_article{
+
+    margin-top: 20px;
+    border: 2px  ; 
+   
+}
+
+
+.clases_de_pagina {
+    
+    padding-top: 30px;
+    padding-left: 10px;
+    background-color:  white;
+    color:white;
+}
+
+
+.cabecera_del_article{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.cabecera_del_article > h2{
+    font-size: 2.3em;
+}
+.contenido-del-article{ 
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+
+}
+.renglones{
+    max-width: 400px;
+    font-size: 1.3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.pie_del_article{
+
+}
+#estaticas{
+  border: 1px rgb(70, 66, 112) solid ;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+#landing_page{
+  border: 1px rgb(70, 66, 112) solid ;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+#dinamicas{
+  border: 1px rgb(70, 66, 112) solid ;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+#comerciales{
+  border: 1px rgb(70, 66, 112) solid ;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.imagen_acordeon{
+  border: 6px orange solid;
+}
+ p .renglon-2{
+  background-color: black;
+}
+#sitios_web{
+  border: 1px rgb(70, 66, 112) solid ;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+footer{
+  footer{margin-top: -40px;
+  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+}
+.formulario{
+  padding-top: 50px;
+  background-color: black;
+  
+}
+.texto_del_contacto{
+  font-size: 2.3em;
+  
+}
+.texto_del_nombre{
+  padding-left: 20px;
+  font-size:1.3em;
+}
+.nombre{
+  padding-left: 90px;
+  padding-top: 20px;
+}
+.telefono_del_cliente{
+  padding-left: 20px;
+  font-size:1.3em;
+}
+.telefono{
+  padding-left: 90px;
+  padding-top: 20px;
+}
+.horario_del_cliente{
+  padding-left: 20px;
+  font-size:1.3em;
+}
+.horario{
+  padding-left: 90px;
+  padding-top: 20px;
+}
+.botones_formulario{
+  padding-left: 100px;
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+/*<
+/*<
+/*<div class="paginasviejas">
+      <p>
+        Si Usted YA TIENE una página web pero no ha obtenido los resultados
+        esperados, comuniquese con nosotros
+      </p>
+      <p>
+        En WEB DESIGN el trabajo comienza con el equipo de investigación,
+        detectando los problemas para poder plantear soluciones
+      </p>
+      <p>
+        NO COBRAMOS POR ASESORAR A UN FUTURO CLIENTE, como tampoco cobramos por,
+        periodicamente, analizar los resultados en la red y comunicarnos con el
+        cliente y analizar juntos los posibles ajustes que la constante
+        variabilidad de las personas y las redes indiquen.
+      </p>
+    </div>
+
+    <div class="redes">
+      <p>
+        Una Página bien diseñada y con un SEO adecuado, se mantendra en los
+        primeros lugares de los buscadores, pero EL CLIENTE DEBE BUSCARNOS EN LA
+        RED PARA PODER ENCONTRARNOS, el trabajo en las redes sociales hace
+        justamente ESO, poner al publico masivo en conocimiento de que el
+        cliente existe, hoy despues de la MARCA RECONOCIDA y de el infaltable
+        BOCA EN BOCA, las redes sociales, con un trabajo adecuado que apunte a
+        la estrategia de MARKETING DIGITAL adecuada, se esta conviertiendo en la
+        tercera impulsora del publico hacia el objetivo fijado por EL CLIENTE.
+        En este contexto el COMUNITY MANAGER decidira, cuando y de que manera
+        debe presentarse ante las redes.
+      </p>
+      <p>
+        Para NOSOTROS el cliente es nuestro socio de trabajo ( justamente es
+        quien impulsa nuestro boca en boca). Por eso en WEB DESIGN formamos una
+        relacion duradera con NUESTROS CLIENTES, trabajando codo a codo para
+        conseguir los OBJETIVOS que nuestro cliente desea alcanzar.
+      </p>
+    </div>
+
+    <div class="seo">
+      <p>
+        El SEO, palabra misteriosa que se ve en las redes, es el conjunto de
+        condiciones que debe cumplir una página o sitio web para estar
+        posicionado en los primeros lugares de los buscadores, analizando cual
+        es el PUBLICO OBJETIVO, como este Público busca en la web, y encuadrar
+        la programacion segun estos parametros.
+      </p>
+      <p>
+        En WEB DESIGN la programacion comienza luego de que se detectaron todas
+        las posibles maneras en las que el PUBLICO puede buscar en la WEB para
+        estar SIEMPRE PRESENTE en las busquedas, y en los primeros lugares.
+      </p>
+    </div>
+
+    <footer>
+      <div class="encabezado">
+        <p>
+          Si es el caso de YA TENER una página web, pero por la que no se ven
+          resultados, comuniquese con un ASESOR de WEB DESIGN y permita que
+          nuestro equipo estudie su caso. Incluso, lo que no funciono representa
+          una ayuda a la hora de reencauzar la presencia en la Web.
+        </p>
+        <p>
+          Nuestros expertos en Negocios y Marketing digital pueden readaptar la
+          página para conseguir resultados. Quizas una reestructuracion, un
+          cambio estetico mas suelto y actual, quizas incluso manteniendo la
+          página pero apoyandola con un SEO correcto que nos ponga al frente en
+          los buscadores, o la implementacion de alguna Landing page, para
+          incluir en nuestras redes sociales y llamar a la fidelizacion del
+          visitante, puede hacer que la inversion inicial comience a dar frutos.
+        </p>
+        <p>EL PRESENTE ES EL MEJOR MOMENTO PARA CAMBIAR</p>
+        <p>Por eso es tan importante esta primera charla.</p>
+        <h4>
+          Cada Persona, Institucion, Empresa,o negocio es particular, y permite
+          a nuestos expertos hacer que cada centavo invertido cuente. Y un
+          detalle importante este asesoramiento...
+        </h4>
+        <h3>ES GRATIS !!!</h3>
+        <h4>
+          Si, porque WEB DESIGN no solo es una empresa de PROGRAMACION Y
+          MARKETING DIGITAL. la nuestra es una empresa de SERVICIOS DIGITALES
+          ORIENTADA A OBJETIVOS PARTICULARES.
+        </h4>
+        <h4>
+          Este primer contacto, es el comienzo de una relacion de trabajo en
+          conjunto, donde todos sus esfuerzos por conseguir sus objetivos se vé
+          apoyada y potenciada por la presencia en la red.
+        </h4>
+        <h3>
+          Periodicamente Y SIN COSTO!!! se monitorean los resultados obtenidos,
+          para poder ir siguiendo la pauta de vuestros clientes o visitantes, y
+          así poder presentarle a nuestros cliente las opciones mas adecuadas
+          para nuestros clientes en todo momento.
+        </h3>
+        <h2>
+          asi pues MANOS A LA OBRA!! envienos un mensaje, contactenos por
+          WHATSApp, o simplemente comuniquese desde aqui con nosotros
+        </h2>
+
+        <h1>NECESITAMOS UNOS POCOS DATOS DE CONTACTO</h1>
+      </div>
+      <div class="formulario">
+        <form action="" method="post">
+          <ul>
+            <li>
+              <label for="name">Nombre:</label>
+              <input type="text" id="name" name="user_name" />
+            </li>
+            <li>
+              <label for="telefono">Telefono:</label>
+              <input type="text" id="telefon" name="user_telefono" />
+            </li>
+            <li>
+              <label for="mail">Correo electrónico:</label>
+              <input type="email" id="mail" name="user_mail" />
+            </li>
+            <li>
+              <label for="msg">Mensaje:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </li>
+          </ul>
+        </form>
+      </div>*/

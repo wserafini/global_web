@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap') *,
+  *: before, *: after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+}
+
+.contenedor {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color:white;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+
+.logo {
+  width: 300px;
+  height: 250px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+#btn-menu {
+  display: none;
+}
+
+.menu label {
+  display: inline;
+  width: 30px;
+  height: 30px;
+  border-right: 1px solid grey;
+}
+
+.menu label:hover {
+  cursor: pointer;
+  background: grey;
+}
+
+.botones ul {
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.botones li:hover {
+  background: grey;
+}
+
+.botones li a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.botones li ul {
+  display: flex;
+  flex-direction: column;
+}
+.botones li ul {
+  display: none;
+}
+.botones li:hover > ul {
+  display: block;
+}
+
+li a:active,
+li a:hover {
+  background: grey;
+}
+
+.chckbtn {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+.paginas ul {
+  display: flex;
+  flex-direction: column;
+}
+
+
+  .presentacion {
+    
+    border: 3px yellow solid;
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+  }
+  h1 {
+    padding: 10px;
+    margin-top: 80px;
+    color: red;
+    text-align: center;
+    font-size: 4.3rem;
+  }
+  .subtitulo {
+    text-align: center;
+  }
+  .desarrollo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    max-width: 400px;
+  }
+  .descripcion {
+    border: 5px red solid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    max-width: 600px;
+  }
+  .contenido {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 80px;
+  }
+  .texto {
+    padding-left: 60px;
+    font-size: 1.3em;
+  }
+  .necesito {
+    margin-top: 130px;
+  }
+  .imagenes {
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+    margin-top: 120px;
+  }
+  .imagen2 {
+    margin-top: 50px;
+  }
+  .imagen3 {
+    margin-top: 50px;
+  }
+  .imagen4 {
+    margin-top: 50px;
+  }
+  .portafolio {
+    color: rgb(147, 218, 228);
+  }
+  .principio_descripcion {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    max-width: 600px;
+    color: rgb(255, 208, 0);
+  }
+  .blogs {
+    color: rgb(74, 172, 18);
+  }
+  .empresariales {
+    color: rgb(39, 108, 197);
+  }
+  .final_desarrollo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    max-width: 600px;
+    margin-top: 80px;
+  }
+  .necesito {
+    border: 5px green solid;
+    padding-left: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .wb p {
+    max-width: 800px;
+
+    font-size: 1.8em;
+    margin-top: 60px;
+    color: rgb(255, 208, 0);
+    padding-left: 300px;
+  }
+  margin-top: -40px;
+
+  background-image: url(imagenes/imagen_para_fondo_grande.jpg);
+  background-repeat: no-repeat;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+.formulario {
+  padding-top: 50px;
+}
+.texto_del_contacto {
+  font-size: 2.3em;
+}
+.texto_del_nombre {
+  padding-left: 20px;
+  font-size: 1.3em;
+}
+.nombre {
+  padding-left: 90px;
+  padding-top: 20px;
+}
+.telefono_del_cliente {
+  padding-left: 20px;
+  font-size: 1.3em;
+}
+.telefono {
+  padding-left: 90px;
+  padding-top: 20px;
+}
+.horario_del_cliente {
+  padding-left: 20px;
+  font-size: 1.3em;
+}
+.horario {
+  padding-left: 90px;
+  padding-top: 20px;
+}
